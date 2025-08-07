@@ -128,7 +128,64 @@ Operator                  Example                Equivalent to
        Types : 
            1. In
            2. not in
+---
+# Conditional Statements
+    Conditional statement allows computer to execute a certain condition only if it is true.
 
+    Types of Conditional Statements: 
+        1. If the statement
+        2. If-else statement
+        3. If-elif-else statement
+        4. Nested Statement
+        5. Short Hand if Statement
 
+1. If the Statement
 
+    The if statement is the most fundamental decision-making statement .
+    The if statement in Python has the subsequent syntax: 
+    if expression : 
+         statement
+ 2. If-Else Statement 
 
+    If-else statement is used when you want to give two condition to the computer.
+    Here if one condition is false, program executes the another condition.
+
+        if condition : 
+                #Will executes this block if the condition is true
+        else : 
+                #will executes this block if the condition is false
+3. If-elif-else Statement 
+
+    In this case , the if condition is evaluated first. if it is false , the elif statement will be executed , if it also comes false then else statement will be executed.
+    For multiple condition , more elif statement are added.
+    if condition: 
+        Body of if
+    elif condition : 
+        Body of elif
+    else Condition : 
+        Body of else
+4. Nested if Statement 
+
+    A nested if statement if one in which an if statement is nestled inside another if statement . This is used when a variable must be processed more than once. The Nested if statement in Python has the following syntax : 
+        if(condition 1 ):
+            #Executes if condition 1 is true 
+        if(condition 2): 
+            #Executes if condition 2 is true 
+          #condition 2 ends here
+        #condition 1 ends here  
+
+5. Short Hand if Statement
+
+    Short Hand if statement is used when only one statement needs to be executed inside the if block . This statement can be mentioned in the  same line which holds the if statement.
+    The short hand if statement in python has the following syntax : 
+        if Condition : statement
+
+6. Short Hand if-else statement
+    It is used to mention If-else statement in one line in which there is only one statement to execute in both if and else blocks. In simple words , if you have only one statement to execute , one for if , and one for else , you can put it all on the same line.
+
+# Problems 
+    1. WAP  to check if a number is positive.
+    2. WAP  to check whether a number is odd or even.
+    3. WAP to create area calculator
+    4. WAP to check whether the passed letter is a vowel or not.
+    5. WAP to check if a number is a single digit number , 2 digit number and so on... , upto 5 digits.
